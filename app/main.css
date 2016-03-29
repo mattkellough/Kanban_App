@@ -2,6 +2,7 @@ body {
   background: cornsilk;
 }
 
+
 .addnote {
   background-color: #fdfdfd;
   border: 1px solid #ccc;
@@ -75,6 +76,11 @@ body {
   float: left;
 
   margin-right: 0.5em;
+}
+
+button.add-lane {
+  background: blue;
+  color: purple;
 }
 
 .lane-delete {
