@@ -10,6 +10,8 @@ const PATHS = {
   build: path.join(__dirname, 'build')
 };
 
+process.env.BABEL_ENV = TARGET;
+
 const common = {
   // Using object of entries (more general and less likely to cause confusion later on)
   entry: {
