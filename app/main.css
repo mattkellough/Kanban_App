@@ -1,5 +1,5 @@
 body {
-  background: cornsilk;
+  background: #3D3D3D;
 }
 
 
@@ -48,7 +48,7 @@ body {
 
   margin: 1em;
 
-  background-color: #efefef;
+  background-color: #090C2A;
   border: 1px solid #ccc;
   border-radius: 0.5em;
 
@@ -78,10 +78,6 @@ body {
   margin-right: 0.5em;
 }
 
-button.add-lane {
-  background: blue;
-  color: purple;
-}
 
 .lane-delete {
   float: right;
@@ -109,4 +105,8 @@ button.add-lane {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
+}
+
+span.value {
+  color: white;
 }
